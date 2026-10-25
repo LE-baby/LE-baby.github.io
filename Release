@@ -1,12 +1,12 @@
-Origin: LE Baby Repo
-Label: LE Baby Repo
+Origin: LE-baby
+Label: LE-baby
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 all
 Components: main
 Description: Packages by LE-baby
-Date: Sun, 25 Oct 2026 01:55:18 +0000
+Date: Sun, 25 Oct 2026 02:06:58 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 Packages
  4a4dd3598707603b3f76a2378a4504aa               20 Packages.gz
