@@ -1,0 +1,17 @@
+Package: com.codex.switchthemecoloraddon
+Name: SwitchThemeColorAddon
+Conflicts: com.codex.switchthemeclean
+Replaces: com.codex.switchthemeclean
+Description: Adds simple custom color settings to the original SwitchTheme tweak.
+Maintainer: 夜辰
+Author: 夜辰
+Section: Tweaks
+Depends: com.baiy.switchtheme, mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 364
+Filename: ./debs/com.codex.switchthemecoloraddon_0.1.2_iphoneos-arm64.deb
+Size: 21976
+MD5sum: 783b2474a1c727716025bfd3703ee53b
+SHA1: 3fbb8c38e57c38f8a463e2ce54607985cca8f4a7
+SHA256: d2d8d09292dfd14ca6ebcd546a6c3a7a3ea6907703cc5d65cda4bc946fdda106
