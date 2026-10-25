@@ -28,6 +28,7 @@ DATE="$(LC_ALL=C date -Ru)"
     'Architectures: iphoneos-arm iphoneos-arm64 all' \
     'Components: main' \
     'Description: Packages by LE-baby' \
+    'Icon: https://le-baby.github.io/CydiaIcon.png' \
     "Date: $DATE"
 
   for algorithm in MD5Sum SHA1 SHA256; do

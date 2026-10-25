@@ -30,7 +30,7 @@ jobs:
       - name: Assemble Pages artifact
         run: |
           mkdir public
-          cp index.html style.css app.js favicon.svg .nojekyll public/
+          cp index.html style.css app.js favicon.svg CydiaIcon.png .nojekyll public/
           cp Packages Packages.gz Packages.bz2 Packages.xz Release public/
           cp -R debs public/debs
 
