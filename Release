@@ -3,23 +3,23 @@ Label:    LE-baby
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 all
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e all
 Components: main
 Description: Packages by LE-baby
 Icon: https://le-baby.github.io/CydiaIcon.png
-Date: Sun, 25 Oct 2026 03:13:24 +0000
+Date: Sun, 25 Oct 2026 03:30:04 +0000
 MD5Sum:
- 2a95af5b1a73f4367e9c6e474fc3c9c9             1307 Packages
- 30433d7b7b08cfea9eef27c4da781148              704 Packages.gz
- 709e4208f7f99bbfcd73b25df68f8155              788 Packages.bz2
- 2fc8b29bb2d8c866dad9af21afaea425              760 Packages.xz
+ 1f13ccf409972736084054a4786f8ca5             5766 Packages
+ bba16c2f6f79452accac95c296b502f2             2491 Packages.gz
+ a555ba3348eec098857d4f0b6717d253             2578 Packages.bz2
+ 2aaa911ba384f36544710e6614595cbd             2332 Packages.xz
 SHA1:
- ba299c9163aa5fbb61b19ecde1c648b2492bb7ec             1307 Packages
- f25a009c20b52a2f31f7c2513bdff514abb212c0              704 Packages.gz
- 0f714c846ff0480820ee8dc6bf8bf0dc963d4aa5              788 Packages.bz2
- 58322426970482588e92fabf14c64399dcaf2b91              760 Packages.xz
+ 58b014c0bf509a6e3a09eb8ff51da5e987e4139c             5766 Packages
+ d47224aecb1fcd62c3b84b1058d9a38c5d8e1ebf             2491 Packages.gz
+ eab52e3cf9a98db7f44700faa26d353e5d2d7fb0             2578 Packages.bz2
+ 5a336463bd63e997f2f5c801632f039dc8693d0e             2332 Packages.xz
 SHA256:
- 7ef045eb4b1fed346b06844061c00f0d046cd2f388e7ec5941edd7677cf53dd4             1307 Packages
- ea0115277e5d349c2a560d4f7a4674d92154a275d82acc91cf8a351c8c97ef43              704 Packages.gz
- ad232e7865f80893c1595f9fcca83486bda9322bf8de8951aabe8a45d6334599              788 Packages.bz2
- 34d08dde5bd789b067b7eee9b5c4daa0371dfe90d74aaa04711caed4f2b3ba5c              760 Packages.xz
+ d3d1d02dafc19300175a1c7c0a4aff031052e85b6e515c32f853f82e2cba6df6             5766 Packages
+ ce37c7e1e37ee95e2f42420eaaad9bfcc66cef7c7831fa792fdfe5aaaab82370             2491 Packages.gz
+ da8edd56c2446b1f23302b25ad1646ef06cce251edbb8bb2156aca3b7daa1e06             2578 Packages.bz2
+ e48a260312f256561bdd35469bec927b66877b483fa7dab17b6629ff7bb72154             2332 Packages.xz

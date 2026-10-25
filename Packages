@@ -33,3 +33,126 @@ Size: 21976
 MD5sum: 783b2474a1c727716025bfd3703ee53b
 SHA1: 3fbb8c38e57c38f8a463e2ce54607985cca8f4a7
 SHA256: d2d8d09292dfd14ca6ebcd546a6c3a7a3ea6907703cc5d65cda4bc946fdda106
+
+Package: com.wkk.copylogx
+Name: CopylogX
+Description: cool！
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1828
+Filename: ./debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
+Size: 273146
+MD5sum: a8efce01b508a9d6cdcc205278d3a2c0
+SHA1: 620ba22d0d33e0b6ea6ba72b1330a517cef2556c
+SHA256: 2c570e9c10a5d64c3adf51bdeb6180211e3fc3658488e9b0b4d82381bce121db
+
+Package: com.wkk.installedpackages
+Name: Sileo插件管理器
+Depends: firmware (>= 15.0)
+Priority: optional
+Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
+ 安装后会在桌面显示应用图标。
+Maintainer: wkk
+Author: wkk
+Section: Applications
+Homepage: https://github.com/roothide/Sileo-roothide
+Tag: purpose::application, compatible_min::ios15
+Icon: file:///Applications/InstalledPackages.app/icon_large.png
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Installed-Size: 912
+Filename: ./debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
+Size: 431964
+MD5sum: 3929ff4f77cc7c3b6032d56b34f859fe
+SHA1: ed19aa266cd95cd52dd7fd5b02ae21846f9dedb0
+SHA256: 476e7b5f805828193e54c83f1669bb3ba2c7b796f3f32cd26df8181814463447
+
+Package: com.wkk.keyboardx
+Name: KeyboardX
+Description: 键盘调整。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Installed-Size: 616
+Filename: ./debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
+Size: 80062
+MD5sum: b6e2339a24430451f3c2083d1f54ff8c
+SHA1: 0329287708ba0efef406d00d870be5b4e8e5d863
+SHA256: 7399d70555d5afbd6f82bb81bb64336dc03bba83785a32dfe7c189c9500ac753
+
+Package: com.wkk.onestepx
+Name: OneStepX
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Architecture: iphoneos-arm64e
+Version: 1.1-0
+Installed-Size: 516
+Filename: ./debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
+Size: 111832
+MD5sum: e98fab8d58689fb7fb014d70ccf1643f
+SHA1: 14bbc5fe0596a4e93799eb19ed2d01825c29acaf
+SHA256: 3324f056835522093268d3f5b0ddf383b28d8881c69af78bf2087b5e83daf9c7
+
+Package: com.wkk.systembox
+Name: SystemX
+Description: cool
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4-7
+Installed-Size: 1572
+Filename: ./debs/com.wkk.systembox_1.4-7_iphoneos-arm64.deb
+Size: 316364
+MD5sum: 695a9d0eed6da74a58d4c1acf0d63f7a
+SHA1: 8dbd5a46397f6853e4b42c3df0c404c53c736f9d
+SHA256: bd7b6d1abb4d986b0786a962c95ca5935770f7dbae3b35cf1a29b2020f6a605e
+
+Package: com.wkk.wechatx
+Name: WeChatX
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Maintainer: wkk
+Author: wkk
+Section: 微信插件
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3-2
+Installed-Size: 8376
+Filename: ./debs/com.wkk.wechatx_2.3-2_iphoneos-arm64.deb
+Size: 2974306
+MD5sum: 0acf43218ccd4f55949bf9b93f89799b
+SHA1: 2be6b8269df307e8fff3b87f6bd57cde3e9a2e43
+SHA256: 38f9da8fd102a530b370e4ab1574c8cd0e913ced897285363a28e37c8be8dcaf
+
+Package: com.wkk.recordeyex
+Name: RecordEyeX
+Description: 自定义快捷录屏的灵动岛录制指示点。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0-5
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/wkk-screen-recorder_1.0-5_iphoneos-arm64e.deb
+Size: 80442
+MD5sum: 74866352f3fea021c73c4703cebbb63d
+SHA1: 258e64649e174b74eb54aaa3a90c209b6a184d20
+SHA256: 2cc4384e515648e3bf5d5bdcd43badd62790071f9ad14fb94ad3c4d3e4ca4306

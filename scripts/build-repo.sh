@@ -25,7 +25,7 @@ DATE="$(LC_ALL=C date -Ru)"
     'Suite: stable' \
     'Version: 1.0' \
     'Codename: ios' \
-    'Architectures: iphoneos-arm iphoneos-arm64 all' \
+    'Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e all' \
     'Components: main' \
     'Description: Packages by LE-baby' \
     'Icon: https://le-baby.github.io/CydiaIcon.png' \
