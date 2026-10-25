@@ -20,8 +20,8 @@ xz -9 -c Packages > Packages.xz
 DATE="$(LC_ALL=C date -Ru)"
 {
   printf '%s\n' \
-    'Origin: LE-baby' \
-    'Label: LE-baby' \
+    'Origin:    LE-baby' \
+    'Label:    LE-baby' \
     'Suite: stable' \
     'Version: 1.0' \
     'Codename: ios' \
