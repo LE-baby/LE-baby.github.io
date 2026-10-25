@@ -1,3 +1,21 @@
+Package: cn.zqbb.hello.quick.panel
+Name: Hello QuickPanel
+Description: 快捷面板~
+Maintainer: zqbb
+Author: zqbb
+Section: zqbb Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+Architecture: iphoneos-arm64e
+Version: 1.0.0-5
+Installed-Size: 5488
+Filename: ./debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Size: 1498688
+MD5sum: 677002f21733799860208de00798c6dd
+SHA1: fd03c8aa72c5d0a16a0ad695ce19ebea366486c5
+SHA256: b1f984eb377d2eb244ca4cdcf735ab97f8f811050e2ef2d9664f8715fa1ad30e
+
 Package: com.codex.switchthemecoloraddon
 Name: SwitchThemeColorAddon
 Conflicts: com.codex.switchthemeclean
