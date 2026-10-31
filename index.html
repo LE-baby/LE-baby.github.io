@@ -1,82 +1,10 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#171918">
-  <meta name="description" content="LE Baby 的 iOS 越狱软件源，支持 Sileo。">
-  <title>LE Baby Repo</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
-  <script src="app.js" defer></script>
-</head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="/" aria-label="LE Baby Repo 首页">
-      <img src="favicon.svg" alt="" width="34" height="34">
-      <span>LE Baby Repo</span>
-    </a>
-    <a class="icon-link" href="https://github.com/LE-baby/LE-baby.github.io" aria-label="查看 GitHub 仓库" title="GitHub">
-      <i data-lucide="github"></i>
-    </a>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow">iOS PACKAGE REPOSITORY</p>
-        <h1>LE Baby Repo</h1>
-        <p class="summary">适用于 Sileo 的个人越狱软件源。</p>
-        <div class="actions">
-          <a class="primary-button" id="sileo-link" href="sileo://source/https://le-baby.github.io/">
-            <i data-lucide="package-plus"></i>
-            添加到 Sileo
-          </a>
-          <button class="secondary-button" id="copy-button" type="button" data-url="https://le-baby.github.io/">
-            <i data-lucide="copy"></i>
-            <span>复制源地址</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="details" aria-label="软件源信息">
-      <div class="details-inner">
-        <div class="stat">
-          <span class="stat-label">状态</span>
-          <strong><span class="status-dot"></span>在线</strong>
-        </div>
-        <div class="stat">
-          <span class="stat-label">软件包</span>
-          <strong id="package-count">读取中</strong>
-        </div>
-        <div class="stat">
-          <span class="stat-label">源地址</span>
-          <strong>le-baby.github.io</strong>
-        </div>
-      </div>
-    </section>
-
-    <section class="packages">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">PACKAGES</p>
-          <h2>已发布软件包</h2>
-        </div>
-        <button class="refresh-button" id="refresh-button" type="button" aria-label="刷新软件包" title="刷新">
-          <i data-lucide="refresh-cw"></i>
-        </button>
-      </div>
-      <div id="package-list" class="package-list" aria-live="polite">
-        <p class="loading">正在读取软件包索引...</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <span>LE Baby Repo</span>
-    <span>Hosted on GitHub Pages</span>
-  </footer>
-</body>
-</html>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>le-baby 的越狱软件源</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0d1117;color:#e6edf3;margin:0;padding:30px 16px;text-align:center}
+h1{font-size:24px}.sub{color:#8b949e;font-size:14px;margin:8px 0 24px}
+.btn{display:inline-block;padding:12px 20px;margin:6px;border-radius:12px;background:#1f6feb;color:#fff;text-decoration:none;font-weight:600}
+.url{color:#58a6ff;font-size:13px;margin-top:24px;word-break:break-all}</style></head>
+<body><h1>le-baby 的越狱软件源</h1><div class="sub">rootless / RootHide 双版本 · Sileo / Zebra 通用</div>
+<a class="btn" href="sileo://source/https%3A%2F%2Fle-baby.github.io%2F">在 Sileo 中打开</a>
+<a class="btn" href="zbra://sources/add/https%3A%2F%2Fle-baby.github.io%2F">在 Zebra 中打开</a>
+<div class="url">https://le-baby.github.io/</div></body></html>
