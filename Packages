@@ -1,158 +1,565 @@
-Package: cn.zqbb.hello.quick.panel
-Name: Hello QuickPanel
-Description: 快捷面板~
-Maintainer: zqbb
-Author: zqbb
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.3.9-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 5936
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.3.9-16-unlocked.deb
+Size: 2329716
+MD5sum: c063a8bd83ce74fe7ca3ba0db93ae91d
+SHA1: 707260afa78eff477362404fb11812c306cbe5f9
+SHA256: d485d0cd55622081b8d36e951ec9ce372bfbff26938ce6e1ee77d675da11acbb
+SHA512: abdc515702b5ffaf96cd479752c329cc554fb96e809f1415e933ab0694eb6785b446b99f24fde536c8c9571f1de1509699bedb8a5089ac6157fbd7c3e3e43bdf
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck
+Author: zooah212
+
+Package: com.wkk.wechatx
+Architecture: iphoneos-arm64e
+Version: 2.4-4
+Section: 微信插件
+Maintainer: wkk
+Installed-Size: 10900
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/WeChatX_2_4_3_iphoneos_arm64e.deb
+Size: 3507472
+MD5sum: 4b2b51df3331013edcb54644a3e780e8
+SHA1: 7440827e30b4fcf745b3cf08f5a9b1bebefe23af
+SHA256: ca1f9a82f791edef4446b861ae7caa6af2b5eacd21e436cee4c039a9f8a86d4a
+SHA512: 4802533c015acba8165421d7f2e4140a098f383449f1097393c2018f1f6aa272b174a9d423466f4a217cb5b1dc21eb071fa7f50645e4578128fc50f5ece3437b
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Name: WeChatX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
 Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 413408
+MD5sum: 98811b3beab76487759c0aa8a807be99
+SHA1: f452915a76eb552da9eec8ebb7e8f633cab8635f
+SHA256: 07ce9907b66f0427b8c4409dab4523f65fa246012f0ecbe6cf28fd97eb02136c
+SHA512: 39cf13b1db398167ff3b5ced367a59b0fbb7c9690ad240ab8c619c6e48b383ef08159b911a9f548ae8b21a2679f0a30553c0d646e9fc9581778d06835acbd169
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64e
+Version: 1.6.1-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb
+Size: 2962200
+MD5sum: b7c82b74436c4f6f8d48a1c5e1ba4296
+SHA1: 03c10edd63dc35e68c584bdcd6538b2cca294aed
+SHA256: 90bb548545c8c7398cce4828ac8ffb79fca9902e943d0abea2bd55a4243af200
+SHA512: d0791077dccffaba52c2defcdb6beb0f47954187a541998d12aa35b3e0755bc3d9324199700cb5f307a21be106c1462f3c36f160e17954e546c872f522b6e118
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: cn.zqbb.hello.keyboard.ai
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11100
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 2812288
+MD5sum: ca14c1e720358597e634ef3507b327de
+SHA1: f199bc5abbc73677d1d049da9a5414646ccdc0d6
+SHA256: 4760db713f0d7920df143d435bf8631616f0c67b5523971ec0bdf64850ed1f5e
+SHA512: 5d661f8d41560bfcd9786966aff6765525b037029cfb98e6beffe549a456d4b205f8e8e094dc7a416150c26394c8fdbbed8d25c4dbeb466de32467fe33ded5bd
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠 (roothide)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3067422
+MD5sum: 2e7492c9d464414ae9b606a96ac53321
+SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
+SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
+SHA512: 9f995f711f493c76120ae7b8972cf52f52d5acd70f0233b29c646ab9a96f27132c4ad1684ab7b91ef3eb7c76dcf0d43f8563c14248eaead9f6cebb114a9c097f
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.hello.qactions
+Architecture: iphoneos-arm64e
+Version: 1.3.0-1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb
+Size: 667232
+MD5sum: 1dc668bac51f743707763182fecd44ee
+SHA1: 5a99e0704d3b46b4b54ea49035fe180558ff0a95
+SHA256: 6b47aeebbb202564cf0b393dc11a0fb93037a6e0acb1db1d3d36b53d5afe2fb9
+SHA512: 8e3bd51a6be036ffdacdc1e7496b75d217c9c312ca1cf181c48315b486446aabece1696d8b70c2374cf1e5ba6454f2462644bc9e1494cfef04494ea975a195af
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Name: Hello QActions
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+
+Package: cn.zqbb.hello.quick.panel
 Architecture: iphoneos-arm64e
 Version: 1.0.0-5
+Section: zqbb Tweaks
+Maintainer: zqbb
 Installed-Size: 5488
-Filename: ./debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
 Size: 1498688
 MD5sum: 677002f21733799860208de00798c6dd
 SHA1: fd03c8aa72c5d0a16a0ad695ce19ebea366486c5
 SHA256: b1f984eb377d2eb244ca4cdcf735ab97f8f811050e2ef2d9664f8715fa1ad30e
+SHA512: 2eb350624e23a0eff53a50e9628be13ae82127d4b5dd7ccdf93e3faf59ad7ea49852fcc4fc17bb8719426a6e6e46301fd8336240b9ee5652eed36f0645a9e8d1
+Description: 快捷面板~
+Name: Hello QuickPanel
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+
+Package: com.be-huge.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 3360
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 660352
+MD5sum: e91f85d6bdbbc1935353dd63d6500c1e
+SHA1: 28efee7dd0ca595d676e8291e2fdee8e2c0cab7d
+SHA256: 3b0aeb4f465e13dc077ca06c5c04ee5437b3a1cbbd048b3fede84183bb40fa71
+SHA512: c68b2e841a1f5c3279987d6855d9a24c3701b6b6ea7fc54766efce31368bd98f227b870c0fc10ad375d2604e97c5742a805b654de1864b5b4531cc0a76174e68
+Description: 分屏，不必太复杂，一切从简即可。
+Name: floatingView
+Author: be-huge
 
 Package: com.codex.switchthemecoloraddon
-Name: SwitchThemeColorAddon
-Conflicts: com.codex.switchthemeclean
-Replaces: com.codex.switchthemeclean
-Description: Adds simple custom color settings to the original SwitchTheme tweak.
-Maintainer: 夜辰
-Author: 夜辰
-Section: Tweaks
-Depends: com.baiy.switchtheme, mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 0.1.2
+Section: Tweaks
+Maintainer: 夜辰
 Installed-Size: 364
-Filename: ./debs/com.codex.switchthemecoloraddon_0.1.2_iphoneos-arm64.deb
+Depends: com.baiy.switchtheme, mobilesubstrate, preferenceloader
+Conflicts: com.codex.switchthemeclean
+Replaces: com.codex.switchthemeclean
+Filename: debs/com.codex.switchthemecoloraddon_0.1.2_iphoneos-arm64.deb
 Size: 21976
 MD5sum: 783b2474a1c727716025bfd3703ee53b
 SHA1: 3fbb8c38e57c38f8a463e2ce54607985cca8f4a7
 SHA256: d2d8d09292dfd14ca6ebcd546a6c3a7a3ea6907703cc5d65cda4bc946fdda106
+SHA512: b4edc95949f2604e435c2f315f044d06adb1d2d61caf29a92dfff51931c25a4d02cd4c2dc1dbcfbab743c2af2f6bea2da67fdff4a75dc083380078d72111da21
+Description: Adds simple custom color settings to the original SwitchTheme tweak.
+Name: SwitchThemeColorAddon
+Author: 夜辰
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64e
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.ntm.notifymanager_2.3.50_iphoneos-arm64e.deb
+Size: 154346
+MD5sum: 8a413fbf3f59c55142ea7301a0fcf216
+SHA1: 681d8b29f9fbf52c2c91b1fd2510480e305437da
+SHA256: 1b3ef305939a27aae2a9866f00be5f12fa008a395f3d983642fccd17779a7ded
+SHA512: b2bcbc887a4e835d3a04a9ea9df04f45ba67b7a558fbacab790680b485d36f3d46149c300e1dc37b355265d7f6ef71b791e58ad6b3939b749c1de34bccab808f
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
+
+Package: com.susu.batteryestimate
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.susu.batteryestimate_0.0.1_iphoneos-arm64e.deb
+Size: 21238
+MD5sum: 37cb8e40de13966ecbec6f0fa805aec6
+SHA1: d07f596f3db0ebcc8002e44e9c46f3f8d042b043
+SHA256: c3f09ff339633996d018218bfb04d7f978f4f4425cbf7f9347135ceaf5ab6bfe
+SHA512: 6de18e73c7f0685e139d594dd8518c629005cd5b3c633439e874678593969b083ef52d6d0a59f438b889a007e6b44a446b9522e8091c31d1f15a002c8de8a586
+Description: 锁屏界面一个电池信息模块，点击可以复制设备电池当前信息。
+Name: BatteryEstimate
+Author: SuSu
 
 Package: com.wkk.copylogx
-Name: CopylogX
-Description: cool！
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Architecture: iphoneos-arm64
 Version: 1.1-9
+Section: Tweaks
+Maintainer: wkk
 Installed-Size: 1828
-Filename: ./debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
 Size: 273146
 MD5sum: a8efce01b508a9d6cdcc205278d3a2c0
 SHA1: 620ba22d0d33e0b6ea6ba72b1330a517cef2556c
 SHA256: 2c570e9c10a5d64c3adf51bdeb6180211e3fc3658488e9b0b4d82381bce121db
+SHA512: abbf6fb422b5dded3602fecc783701209655296a0a051079cf5cd750d8cd7e94dc9d85907f165596f021acbda6a6f77dae7324cf9d119300a6a4a3c12db6d49a
+Description: cool！
+Name: CopylogX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.wkk.glasssuitex
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1980
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.glasssuitex_1.1-0_iphoneos-arm64.deb
+Size: 472784
+MD5sum: 9f9300e1d93677bcae77d88c65529599
+SHA1: 170d695f49ef60783a67e837b327ac42f17fcea1
+SHA256: c54db8b53d53c1533b7d4ab1a2e96ea243846cd94f044b2157b40202d69e803d
+SHA512: a5c74331284402e645b56788e4c3acf63c9d19c99676dce877d1f710446fa221b460b274b23d4e3a43858922a4d0df14adc761556054d0dab897c4609c888bd4
+Description: GlassSuiteX (SpringBoard-only safe build)
+Name: GlassSuiteX
+Author: wkk
 
 Package: com.wkk.installedpackages
-Name: Sileo插件管理器
-Depends: firmware (>= 15.0)
-Priority: optional
-Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
- 安装后会在桌面显示应用图标。
-Maintainer: wkk
-Author: wkk
-Section: Applications
-Homepage: https://github.com/roothide/Sileo-roothide
-Tag: purpose::application, compatible_min::ios15
-Icon: file:///Applications/InstalledPackages.app/icon_large.png
 Architecture: iphoneos-arm64
 Version: 1.0-1
+Priority: optional
+Section: Applications
+Maintainer: wkk
 Installed-Size: 912
-Filename: ./debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
+Depends: firmware (>= 15.0)
+Filename: debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
 Size: 431964
 MD5sum: 3929ff4f77cc7c3b6032d56b34f859fe
 SHA1: ed19aa266cd95cd52dd7fd5b02ae21846f9dedb0
 SHA256: 476e7b5f805828193e54c83f1669bb3ba2c7b796f3f32cd26df8181814463447
+SHA512: 556eece2bdaf53f7ebbbb4f5fb5feb4e10448c7f5d6f3ca8051af44a9c7c23e13baf9af0b5a5e7e6788b4a079d8d1d8d8b2949b03f845de17ccabd8fd02ac491
+Homepage: https://github.com/roothide/Sileo-roothide
+Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
+ 安装后会在桌面显示应用图标。
+Tag: purpose::application, compatible_min::ios15
+Name: Sileo插件管理器
+Author: wkk
+Icon: file:///Applications/InstalledPackages.app/icon_large.png
 
 Package: com.wkk.keyboardx
-Name: KeyboardX
-Description: 键盘调整。
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm64
 Version: 1.1-6
+Section: Tweaks
+Maintainer: wkk
 Installed-Size: 616
-Filename: ./debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
 Size: 80062
 MD5sum: b6e2339a24430451f3c2083d1f54ff8c
 SHA1: 0329287708ba0efef406d00d870be5b4e8e5d863
 SHA256: 7399d70555d5afbd6f82bb81bb64336dc03bba83785a32dfe7c189c9500ac753
+SHA512: 78b0a8d7917accea4b9004079064961eb2fde1bb2951dedd64d8251d0cd9cfadd738ce14f687f6700084aa80a2626a0a5b24453c94515a2e63fe185c78d55222
+Description: 键盘调整。
+Name: KeyboardX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
 Package: com.wkk.onestepx
-Name: OneStepX
-Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Architecture: iphoneos-arm64e
 Version: 1.1-0
+Section: Tweaks
+Maintainer: wkk
 Installed-Size: 516
-Filename: ./debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
+Filename: debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
 Size: 111832
 MD5sum: e98fab8d58689fb7fb014d70ccf1643f
 SHA1: 14bbc5fe0596a4e93799eb19ed2d01825c29acaf
 SHA256: 3324f056835522093268d3f5b0ddf383b28d8881c69af78bf2087b5e83daf9c7
+SHA512: 6a1f14d2f40803f4b7fce9727a0bc8d44a55eda49359bbdd4fc075b1b87cbd533821c8179483a349cac1fa13b935dec331da480860d0003b6bddce5e02f35e8c
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
+Name: OneStepX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
 Package: com.wkk.systembox
-Name: SystemX
-Description: cool
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 1.4-7
+Section: Tweaks
+Maintainer: wkk
 Installed-Size: 1572
-Filename: ./debs/com.wkk.systembox_1.4-7_iphoneos-arm64.deb
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.systembox_1.4-7_iphoneos-arm64.deb
 Size: 316364
 MD5sum: 695a9d0eed6da74a58d4c1acf0d63f7a
 SHA1: 8dbd5a46397f6853e4b42c3df0c404c53c736f9d
 SHA256: bd7b6d1abb4d986b0786a962c95ca5935770f7dbae3b35cf1a29b2020f6a605e
+SHA512: 11a725aaf595e61f8a23dcbab0baacf594189507d772eae23afb61252fbe3894ecfe24bd00e4b35ba3a5405d9df3468007191a4fa99f512931b04bf0ba86df04
+Description: cool
+Name: SystemX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
 Package: com.wkk.wechatx
-Name: WeChatX
-Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
-Maintainer: wkk
-Author: wkk
-Section: 微信插件
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 2.3-2
+Section: 微信插件
+Maintainer: wkk
 Installed-Size: 8376
-Filename: ./debs/com.wkk.wechatx_2.3-2_iphoneos-arm64.deb
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.3-2_iphoneos-arm64.deb
 Size: 2974306
 MD5sum: 0acf43218ccd4f55949bf9b93f89799b
 SHA1: 2be6b8269df307e8fff3b87f6bd57cde3e9a2e43
 SHA256: 38f9da8fd102a530b370e4ab1574c8cd0e913ced897285363a28e37c8be8dcaf
+SHA512: 8b8f47f9a9798b95c9f8ad1db72dcfd5869adefc2c1a4e7ae2c9465bbdb6f7ad098aa6ab33fefb9be68ae2e0d14d7de1ad6397c90c7e595914e16f2f836caa1e
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Name: WeChatX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+
+Package: com.huayuarc.systempro
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/systempro_0.3.0-仅从右侧打开应用.deb
+Size: 40970
+MD5sum: 50d0897c5c41adf799927fa405ec959c
+SHA1: 0a0ca0ae9d4a3c1b7648be0aac763c9f074941f4
+SHA256: c472e96672544b454b418e2968f6c6cc8932e8162ef841ebd35939e90e0057fd
+SHA512: 0eb4f45cd45ae82f3c900b1d7dc67de225b7ce135a750e1de60528548cc9540d7e28bc45981779d3c1e4c003cdb2939d7a9031c588f5d8c33c5503b609aa231d
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、从右到左开应用、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Name: Systempro
+Author: Huayuarc
 
 Package: com.wkk.recordeyex
-Name: RecordEyeX
-Description: 自定义快捷录屏的灵动岛录制指示点。
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm64e
 Version: 1.0-5
+Section: Tweaks
+Maintainer: wkk
 Installed-Size: 532
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/wkk-screen-recorder_1.0-5_iphoneos-arm64e.deb
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/wkk-screen-recorder_1.0-5_iphoneos-arm64e.deb
 Size: 80442
 MD5sum: 74866352f3fea021c73c4703cebbb63d
 SHA1: 258e64649e174b74eb54aaa3a90c209b6a184d20
 SHA256: 2cc4384e515648e3bf5d5bdcd43badd62790071f9ad14fb94ad3c4d3e4ca4306
+SHA512: e4510711b0c3253399510660e4a1ba9499d94aa92f2e5ae23223f21d302566d95494a265d21c9079998184f14bfd9c4909fb93ced94a46f83d2a7d8c23206962
+Description: 自定义快捷录屏的灵动岛录制指示点。
+Name: RecordEyeX
+Author: wkk
+
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 3.0-beta
+Section: Tweaks
+Maintainer: evgeniy558
+Installed-Size: 22808
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
+Filename: debs/仿18控制中心.deb
+Size: 6120524
+MD5sum: 3103262173b17e5f1dab5db1437c87ed
+SHA1: c6aade82f80af219d334086ff1d9e8b0a527713e
+SHA256: e99b440278cbd1192aa4c140dc578bcea5307551a52f118a99a877334a9fa138
+SHA512: bd4373eb60d37947adec7e1ac7eead4aa44784531c5444b300a801d1f46ead68151fac04974955c197071f750337466766a638d9951237f0c15d1d194f6193f6
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ .
+ Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
+Package: com.local.ios27statusbar
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: L.E
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/仿ios27状态栏.deb
+Size: 21604
+MD5sum: ee5faf0706abb7881b4a49abd8ca4f0d
+SHA1: 010b0e62cf8c3fa506f7d880f33adb898b6f9f41
+SHA256: b6f3f9db4596318f3db3d65c36fc3fe21ac1e50486a77d4f910afd4735508f76
+SHA512: dfaa63b6fe183f867bbd1e50b7aa41ceb3c275fb83baee88b82219916aaf6b68cf17d3f2372ecd29c2cb8c42958e0820b13ab518e45488cbffda75112ac7aa93
+Description: L.E 自用
+Name: 仿ios27状态栏
+Author: L.E
+
+Package: com.Axs.bofangqi
+Architecture: iphoneos-arm64
+Version: 0.3.14
+Section: Tweaks
+Maintainer: 夜辰
+Installed-Size: 2708
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.jaysuen.evocenter, com.local.nativeplayerresize
+Replaces: com.local.nativeplayerresize
+Filename: debs/原生播放器调节_0.3.14_无根.deb
+Size: 603484
+MD5sum: b376c1216df51be8cecee7c074e84996
+SHA1: 2537a845a79d02297b857b0375bb47da4446b80e
+SHA256: d65edd49fd98a3c832594a841c72e1e045e51196a420113212a88709e13bd0b3
+SHA512: 67277dceac1664d2292c7727327f71be025f1e2eec63121dcd68276f8c5f211c958504f9565c0c21f3813cebb3b8bd563c0561f0bca07b1b512da2accc476390
+Description: 单纯原生播放器尺寸调节
+Name: 原生播放器调节
+Author: 夜辰
+Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bofangqi/js.json
+
+Package: com.huayuarc.righttoleftappopen
+Architecture: iphoneos-arm64e
+Version: 0.3.0-rtl2
+Section: Tweaks
+Maintainer: L.E
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.systempro
+Replaces: com.huayuarc.systempro
+Filename: debs/右到左打开应用_iphoneos-arm64e.deb
+Size: 10612
+MD5sum: 2d8610e3e06f6f1135c18acef7bd0240
+SHA1: 0344b42162f41fd13551732152c32555f028b8b7
+SHA256: fc124426734da5df040e715ee34efc1d3e2cdfacec2836a8f4b7d70d7a98f32e
+SHA512: 42203b18d3c402b9506cce939d212fb008e5f84683126ca45282c40d6efe4db1f0b187db11421e17396a634be17eed3ffb1368d77cefeedc0ed5fa7691359483
+Description: “右到左打开应用”独立版。安装后默认启用，不提供设置项。
+Name: 右到左打开应用
+Author: L.E
+
+Package: com.baiy.switchtheme
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: baiy（qq：961666883））
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/破解牙齿动态 yyds.deb
+Size: 27752
+MD5sum: c43f16be4b9d53b43bfee76d257cd548
+SHA1: ea6e4b5f6b22724aa416324333a4555f944c2176
+SHA256: 2c9c91c5031e46f2339f3d4ac82c82f962bd02336c1503e8143d9485824fd15c
+SHA512: a37fc7864b940beb2e70b35ef1d0a8489f508b25b25a8bcf7c4de22c9620e5c9ad6acc87dbce6671ddb96fb658b58f36847c18a3dd4c8d937f817eb714683eda
+Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
+Name: SwitchTheme——牙齿
+Author: 白衣
+
