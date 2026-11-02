@@ -6,11 +6,11 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 
-Support: https://LE-baby.github.io/LE-baby.github.io/
-Icon: https://LE-baby.github.io/LE-baby.github.io/CydiaIcon.png
+Support: https://LE-baby.github.io/
+Icon: https://LE-baby.github.io/CydiaIcon.png
 MD5Sum:
- b809e388f297feee6585b67e13d7ab0b  27896 Packages
- 1b064b34ef86a57ac5b019b01d40c024  12360 Packages.gz
+ 11d08675d2c3852306ea6a4f3d1a83e1  28670 Packages
+ 2cde7f1359cfb692170205dcba860169  12717 Packages.gz
 SHA256:
- 1cbdc098796703a7176133433a5f1b71f214b0b65b41da0174658307b4479557  27896 Packages
- c279aeca29528bef9a3309e03abbbc7cd5efd988fea190c343230856a21ad7bd  12360 Packages.gz
+ 8700169bce8aac2319b0d66cfc6fa27e7b55411eda7c59aa7b676be2cba05694  28670 Packages
+ 1d9ae65184af499b10bcd06e4daa8f2a10b991375785178bd594c9294abf06f7  12717 Packages.gz

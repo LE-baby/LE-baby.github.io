@@ -378,6 +378,22 @@ Name: WeChatX
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 
+Package: com.local.ios27statusbar
+Architecture: iphoneos-arm64e
+Version: 1.4.0~ios16native2
+Section: Tweaks
+Maintainer: 半生年华&yaowell&Benja Guo
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iOS27状态栏-修复ios16不生效-arm64e.deb
+Size: 30096
+MD5sum: e1e9d86acf12a44d72b84781715973d2
+SHA1: 1448d94690346a4d2ff4b71009cc6fa8c9d59f70
+SHA256: c4941a3a6c34854420fa7c7bebcdad2768ede4c7392a052ca15bb5618fedddb7
+SHA512: 72765523c97102bb11c5227ec2670b2009c43a17aebd73ecab74683a509ba98088bca59f07550b107f74b7b1e5e9966916d54e34ce2511c0b12b3c653fc6a334
+Description: 模仿27系统状态栏（兼容 Single VPN Wi-Fi 变色） 信号与Wi-Fi素材来源：Benja Guo  电池源码感谢yaowell提供
+Name: iOS27状态栏
+Author: 半生年华&yaowell&Benja Guo
+
 Package: com.huayuarc.systempro
 Architecture: iphoneos-arm64
 Version: 0.3.0
