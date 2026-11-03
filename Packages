@@ -1,3 +1,22 @@
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.5.3+screencore5.fix2
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 3110
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate
+Filename: debs/Galaxy_0.5.3-susu最终版_iphoneos-arm64e.deb
+Size: 655828
+MD5sum: b6a4242333d381c05825a255f853b1ef
+SHA1: 73a6ab44a14200eda9479fd244bd8073703f6b3e
+SHA256: 7d7e7d4422a1770f5afa3967cf6402a3852a7a6a0f80738bfa963efc805192ce
+SHA512: 3fbb329369f925dcbbac1ec56dbafdba7c449bb3383fb70e337e84effc77f60412c19c5fb8cfa0cacc8b893c5d35a72f6042953694951e3e40048d4899f59e75
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy+susu-自用
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.3.9-16
