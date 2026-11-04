@@ -36,6 +36,24 @@ Description: Quick action panel accessible by swiping up from the bottom-right c
 Name: SwipeDeck
 Author: zooah212
 
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.6-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7424
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.5.6-16-unlocked.deb
+Size: 2650952
+MD5sum: 9e1ff00c5b9160f4e9c9882fb81c8477
+SHA1: 128ac8043375cc64129caa5957c28bd7d4d28c50
+SHA256: 7cb110a8c240b8633600f5b8a66b2d8e44c30d8f7596eafb92277452187c6431
+SHA512: b4899346ab72ac175e818779f38aad107d1c39b8836374606f90cd88f1f83cc4f82d9de2456033e5aefee0981f99c909f935409f96fff8132c7c0d9c7c34de52
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+
 Package: com.wkk.wechatx
 Architecture: iphoneos-arm64e
 Version: 2.4-4
