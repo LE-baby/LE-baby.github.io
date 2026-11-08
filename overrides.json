@@ -6,5 +6,9 @@
   "com.wkk.mediaserverdhook_0.0.1-2_debug_iphoneos-arm64e.deb": {
     "name": "修复分屏相机问题",
     "desc": ""
+  },
+  "SwipeDeck-0.5.9-14.deb": {
+    "name": "快捷面板",
+    "desc": "解锁全部功能"
   }
 }
