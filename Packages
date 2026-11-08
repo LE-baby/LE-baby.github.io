@@ -361,6 +361,24 @@ Name: KeyboardX
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
+Package: com.wkk.mediaserverdhook
+Architecture: iphoneos-arm64e
+Version: 0.0.1-2+debug
+Section: Tweaks
+Maintainer: thefool
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.wkk.mediaserverdhook_0.0.1-2_debug_iphoneos-arm64e.deb
+Size: 4348
+MD5sum: 224ac56dfa32a8a47b21c9234583dfc0
+SHA1: fcf44f813fb657b3b2b68b2e29cd7c54dea33d71
+SHA256: c5aaf22d01d06ab9c3f5742b588503bd030a22bcfb01e69e78c01ccc6100c4cb
+SHA512: 8853fe9d0a1ab477340ae38fab22d1c4096fcd93d7abdc4fdf87d83d9d875d635ef56fb232d62e756e7790b2f0cd7ae53241d36f79d2e9ee2bf8fa3011d610b7
+Description: 解决某些情况下分屏调用不了相机的情况。
+Name: 修复分屏相机问题
+Author: thefool
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
 Package: com.wkk.onestepx
 Architecture: iphoneos-arm64e
 Version: 1.1-0
