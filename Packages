@@ -54,6 +54,23 @@ Description: Quick action panel accessible by swiping up from the bottom-right c
 Name: SwipeDeck - 快捷助手
 Author: zooah212
 
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.9-14
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7788
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.5.9-14.deb
+Size: 2492548
+MD5sum: 12fcc1f4dabfd615718d1cde6baa2c15
+SHA1: d6c9e4c4d8c5c90934dd5f9bf3620f1a990039d2
+SHA256: 6ee628fb4d5abeda5b056ff446c555226941ab1ed275bc424b5a8eb6a7c18166
+SHA512: 9cbb26f45d5ee1ca987472ae7ae3141a6e9cc722fa5a6061956ed65b3262a5c3a044a4ec131bfa4ebaba7462d16ea7271895f29c02cb9b3c3977cb208d1636c9
+Description: 解锁全部功能
+Name: 快捷面板
+Author: zooah212
+
 Package: com.wkk.wechatx
 Architecture: iphoneos-arm64e
 Version: 2.4-4
