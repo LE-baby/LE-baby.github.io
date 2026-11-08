@@ -2,5 +2,9 @@
   "Galaxy_0.5.3-susu最终版_iphoneos-arm64e.deb": {
     "name": "Galaxy+susu-自用",
     "desc": ""
+  },
+  "com.wkk.mediaserverdhook_0.0.1-2_debug_iphoneos-arm64e.deb": {
+    "name": "修复分屏相机问题",
+    "desc": ""
   }
 }
